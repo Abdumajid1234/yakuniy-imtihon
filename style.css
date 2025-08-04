@@ -1,0 +1,412 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    transition: all 0.5s ease;
+}
+
+.box{
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.boshi{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-box, .button{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    width: 191px;
+    height: 37px;
+    background-color: #272727;
+    padding-left: 10px;
+    border-radius: 30px;
+    color: #989898;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.button1{
+    width: 141px;
+    height: 37px;
+}
+
+.button2{
+    width: 60px;
+    padding-left: 22px;
+    height: 37px;
+}
+
+.button-box{
+    gap: 30px;
+}
+
+.gamburger{
+    text-align: center;
+    padding-top: 7px;
+    color: #fff;
+    font-size: 18px;
+    width: 48px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #272727;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #747070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/gemini\ orqa\ fon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.button-box2{
+    display: flex;
+}
+
+.button-box2 .button3, .button-box2 .button34{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.button-box2 .button3 {
+    background: linear-gradient( to right,#1a73e8, #5991da, #81a9dc, #c3ddff);
+}
+
+.button34{
+    background-color: transparent;
+    border: 1px solid #448ae4;
+    gap: 10px;
+}
+
+.button34, .button, .button3 {
+    cursor: pointer;
+}
+
+.button34:hover, .button:hover, .button3:hover{
+    transform: scale(1.04);
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.04);
+}
+
+.yozuv h1{
+    color: #fff;
+    font-size: 124px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.yozuv .p1{
+    color: #9aa0a6;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.tagi{
+    width: 616px;
+    height: 144px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+    border: 1px solid #dadce0;
+    border-radius: 30px;
+    background-color: #272727;
+    margin-top: 110px;
+}
+
+.tagi .left img{
+    width: 210px;
+    height: 130px;
+    border-radius: 11px;
+}
+
+.tagi .right p{
+    color: #fff;
+}
+
+.tagi .right p:nth-child(1){
+    color: #9aa0a6;
+    text-transform: uppercase;
+    letter-spacing: 1.01px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.tagi .right p:nth-child(2) {
+    font-weight: 600;
+}
+
+.footer-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-bolla{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #060606;
+}
+
+.yozuv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yozuv2 h1{
+    width: 843px;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center  ;
+    color: transparent;
+    background: linear-gradient( to right,#1459b4, #5991da, #81a9dc, #c3ddff);
+    background-clip: text;
+
+}
+
+.tagi1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 606px;
+    height: 55px;
+    background-color: #272727;
+    color: #9aa0a6;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 110px;
+}
+
+footer{
+    width: 100%;
+    height: 85vh;
+    background-color: #060606;
+}
+
+.tepa{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    padding-left: 40px;
+    border-bottom: 1px solid #747070;
+}
+
+.icon{
+    display: flex;
+    gap: 50px;
+}
+
+.icon p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.02px;
+}
+
+.iconka{
+    display: flex;
+    gap: 20px;
+}
+
+.past {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #747070;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.right1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.past .left1 h1{
+    width: 310px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #f1f3f4;
+}
+
+.left2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left2 ul li{
+    width: 240px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.left2 ul li a img{
+    width: 32px;
+    height: 32px;
+}
+
+.left2 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pasti ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.pasti ul li{
+    list-style: none;
+}
+
+.pasti ul li a{
+    text-decoration: none;
+    color: #747070;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:520px) {
+    .box{
+        width: 520px;
+    }
+
+    .section1{
+        padding: 0 20px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .ert{
+        display: none;
+    }
+
+    .button-box{
+        display: flex;
+        gap: 9px;
+    }
+
+    .section2 .yozuv2 h1{
+        width: 470px;
+        font-size: 35px;
+    }
+
+    .tagi1{
+        width: 500px;
+    }
+
+    .tepa{
+        padding-top: 20px;
+    }
+
+    footer{
+        width: 520px;
+        height: 120vh;
+    }
+
+    .past{
+        width: 500px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left2{
+        margin-top: 40px;
+    }
+
+}
