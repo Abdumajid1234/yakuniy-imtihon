@@ -367,6 +367,11 @@ footer{
         padding: 0 20px;
     }
 
+    .yozuv h1{
+        font-size: 60px;
+        padding-top: 40px;
+    }
+
     nav ul{
         display: none;
     }
