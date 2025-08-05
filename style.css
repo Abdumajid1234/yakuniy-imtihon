@@ -176,6 +176,7 @@ button:hover{
     border-radius: 30px;
     background-color: #272727;
     margin-top: 110px;
+    padding-top: 7px;
 }
 
 .tagi .left img{
@@ -340,6 +341,11 @@ footer{
     color: #fff;
 }
 
+.left2 ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
 .pasti ul{
     display: flex;
     align-items: center;
@@ -356,6 +362,11 @@ footer{
     color: #747070;
     font-size: 18px;
     font-weight: 500;
+}
+
+.pasti ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 @media screen and (max-width:520px) {
